@@ -1,0 +1,19 @@
+{
+  "name": "textlint-rule-preset-pine5274",
+  "version": "1.2.5",
+  "description": "pine5274のテキストリントルールです",
+  "private": false,
+  "dependencies": {
+    "textlint": "^12.1.1",
+    "textlint-rule-preset-japanese": "^7.0.0",
+    "textlint-rule-preset-jtf-style": "^2.3.12",
+    "textlint-rule-prh": "^5.2.0"
+  },
+  "scripts": {
+    "generate": "node _tools/長音表記統一.js",
+    "format": "node _tools/YML整形ツール.js"
+  },
+  "devDependencies": {
+    "yaml": "^1.0.0-rc.8"
+  }
+}
